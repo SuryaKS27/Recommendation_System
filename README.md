@@ -6,11 +6,11 @@ This repository contains implementations of multiple recommendation systems for 
 
 ### Recommendation System 1: Collaborative Filtering with TensorFlow Recommenders
 
-Description: Uses TensorFlow and TensorFlow Recommenders to build a collaborative filtering recommendation system.
+**Description:** Uses TensorFlow and TensorFlow Recommenders to build a collaborative filtering recommendation system.
 
-Dataset: Movielens 100k dataset.
+**Dataset:** Movielens 100k dataset.
 
-Features:
+**Features:**
 
 Loads and preprocesses user ratings and movie details.
 
@@ -24,11 +24,11 @@ Provides functions to recommend movies for specific users and find similar movie
 
 ### Recommendation System 2: Matrix Factorization with Keras
 
-Description: Implements matrix factorization using Keras for collaborative filtering.
+**Description:** Implements matrix factorization using Keras for collaborative filtering.
 
-Dataset: Movielens 100k dataset.
+**Dataset:** Movielens 100k dataset.
 
-Features:
+**Features:**
 
 Loads user ratings and movie details.
 
@@ -42,11 +42,11 @@ Provides functions to recommend movies based on user preferences.
 
 ### Recommendation System 3: Content-Based Filtering with TF-IDF and Collaborative Filtering
 
-Description: Integrates TF-IDF for content-based filtering and collaborative filtering for recommendations.
+**Description:** Integrates TF-IDF for content-based filtering and collaborative filtering for recommendations.
 
-Dataset: Movielens 25m dataset.
+**Dataset:** Movielens 25m dataset.
 
-Features:
+**Features:**
 
 Cleans and vectorizes movie titles using TF-IDF.
 
@@ -66,10 +66,12 @@ Open and execute the notebook to explore each recommendation system.
 
 The Movielens datasets (ml-100k and ml-25m) are used. You can download them from the Movielens website.
 
-[Link Text](https://grouplens.org/datasets/movielens/)
+[Dataset](https://grouplens.org/datasets/movielens/)
 
 #### Dependencies:
 
 TensorFlow, TensorFlow Recommenders, TensorFlow Datasets, Scikit-learn, Pandas, NumPy, Keras
 
-##
+## Author
+
+- [@Surya K S ](https://github.com/SuryaKS27/)

@@ -12,15 +12,15 @@ This repository contains implementations of multiple recommendation systems for 
 
 **Features:**
 
-Loads and preprocesses user ratings and movie details.
+1. Loads and preprocesses user ratings and movie details.
 
-Builds embeddings for users and movies.
+2. Builds embeddings for users and movies.
 
-Defines a retrieval task to predict top-k recommendations.
+3. Defines a retrieval task to predict top-k recommendations.
 
-Trains a model and evaluates its performance.
+4. Trains a model and evaluates its performance.
 
-Provides functions to recommend movies for specific users and find similar movies based on user preferences.
+5. Provides functions to recommend movies for specific users and find similar movies based on user preferences.
 
 ### Recommendation System 2: Matrix Factorization with Keras
 
@@ -30,15 +30,15 @@ Provides functions to recommend movies for specific users and find similar movie
 
 **Features:**
 
-Loads user ratings and movie details.
+1. Loads user ratings and movie details.
 
-Preprocesses data by encoding user and movie IDs.
+2. Preprocesses data by encoding user and movie IDs.
 
-Constructs a neural network model with embeddings for users and movies.
+3. Constructs a neural network model with embeddings for users and movies.
 
-Trains the model using SGD optimizer and sparse categorical cross-entropy loss.
+4. Trains the model using SGD optimizer and sparse categorical cross-entropy loss.
 
-Provides functions to recommend movies based on user preferences.
+5. Provides functions to recommend movies based on user preferences.
 
 ### Recommendation System 3: Content-Based Filtering with TF-IDF and Collaborative Filtering
 
@@ -48,11 +48,11 @@ Provides functions to recommend movies based on user preferences.
 
 **Features:**
 
-Cleans and vectorizes movie titles using TF-IDF.
+1. Cleans and vectorizes movie titles using TF-IDF.
 
-Implements a function to find movies similar to a given title based on cosine similarity of TF-IDF vectors.
+2. Implements a function to find movies similar to a given title based on cosine similarity of TF-IDF vectors.
 
-Utilizes user ratings to recommend movies that similar users have rated highly.
+3. Utilizes user ratings to recommend movies that similar users have rated highly.
 
 ## Setup and Usage
 

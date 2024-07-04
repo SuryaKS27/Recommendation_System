@@ -75,7 +75,7 @@ Explore advanced neural collaborative filtering techniques using deep learning. 
 
 ### Running the Recommendation Systems
 
-Each recommendation system is encapsulated in a Colab notebook: **Movie_recommendation_system.ipynb**. Open the notebook, follow the instructions, and start exploring the models.
+Each recommendation system is encapsulated in a Colab notebook: **movie_recommendation_system.ipynb**. Open the notebook, follow the instructions, and start exploring the models.
 
 ### Datasets
 

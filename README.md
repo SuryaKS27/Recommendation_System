@@ -58,7 +58,7 @@ Combine the strengths of content-based filtering and collaborative filtering wit
 
 **Dataset:** Movielens 25m
 
-### 4. Deep Learning: Neural Collaborative Filtering
+### 4. Deep Learning: Neural Collaborative Filtering (just tried)
 
 **Overview:**
 Explore advanced neural collaborative filtering techniques using deep learning. This approach models complex interactions between users and movies through deep neural networks.

@@ -1,81 +1,88 @@
-# Recommendation_System
+# Movie Recommendation Systems
 
-This repository contains implementations of multiple recommendation systems for movies using different approaches and datasets.
+Welcome to the Movie Recommendation Systems repository! Here, you'll find multiple implementations of recommendation systems that help you discover movies you’ll love. Whether you're a data science enthusiast, a machine learning expert, or just a movie buff, there's something here for you.
 
 ## Recommendation Systems Implemented
 
-### Recommendation System 1: Collaborative Filtering with TensorFlow Recommenders
+### **1. Collaborative Filtering with TensorFlow Recommenders**
 
-**Description:** Uses TensorFlow and TensorFlow Recommenders to build a collaborative filtering recommendation system.
-
-**Dataset:** Movielens 100k dataset.
-
-**Features:**
-
-1. Loads and preprocesses user ratings and movie details.
-
-2. Builds embeddings for users and movies.
-
-3. Defines a retrieval task to predict top-k recommendations.
-
-4. Trains a model and evaluates its performance.
-
-5. Provides functions to recommend movies for specific users and find similar movies based on user preferences.
-
-### Recommendation System 2: Matrix Factorization with Keras
-
-**Description:** Implements matrix factorization using Keras for collaborative filtering.
+**Description:**
+Dive into the world of collaborative filtering with TensorFlow Recommenders. This system uses user interactions to find patterns and suggest movies.
 
 **Dataset:** Movielens 100k dataset.
 
-**Features:**
+**Key Features:**
 
-1. Loads user ratings and movie details.
+- **User and Movie Embeddings:** Learns and uses embeddings for users and movies to provide recommendations.
+- **Top-K Recommendations:** Defines a retrieval task to predict the top-K recommendations tailored to each user.
+- **Performance Evaluation:** Trains the model and evaluates its performance for reliable recommendations.
+- **Custom Functions:** Includes functions to recommend movies for specific users and find similar movies based on user preferences.
 
-2. Preprocesses data by encoding user and movie IDs.
+### **2. Matrix Factorization with Keras**
 
-3. Constructs a neural network model with embeddings for users and movies.
+**Description:**
+Implement matrix factorization using Keras to provide collaborative filtering recommendations. This method factors the user-item interaction matrix to identify latent features.
 
-4. Trains the model using SGD optimizer and sparse categorical cross-entropy loss.
+**Dataset:** Movielens 100k dataset.
 
-5. Provides functions to recommend movies based on user preferences.
+**Key Features:**
 
-### Recommendation System 3: Content-Based Filtering with TF-IDF and Collaborative Filtering
+- **Data Preprocessing:** Loads user ratings and movie details, and preprocesses data by encoding user and movie IDs.
+- **Neural Network Model:** Constructs a neural network with embeddings for users and movies.
+- **Training with SGD:** Trains the model using the SGD optimizer and sparse categorical cross-entropy loss.
+- **Personalized Recommendations:** Provides functions to recommend movies based on user preferences.
 
-**Description:** Integrates TF-IDF for content-based filtering and collaborative filtering for recommendations.
+### **3. Content-Based Filtering with TF-IDF and Collaborative Filtering**
+
+**Description:**
+Combines the power of TF-IDF for content-based filtering with collaborative filtering for recommendations, offering a hybrid approach.
 
 **Dataset:** Movielens 25m dataset.
 
-**Features:**
+**Key Features:**
 
-1. Cleans and vectorizes movie titles using TF-IDF.
+- **TF-IDF Vectorization:** Cleans and vectorizes movie titles using TF-IDF.
+- **Cosine Similarity:** Implements functions to find movies similar to a given title based on cosine similarity of TF-IDF vectors.
+- **User Preferences:** Utilizes user ratings to recommend movies that similar users have rated highly.
 
-2. Implements a function to find movies similar to a given title based on cosine similarity of TF-IDF vectors.
+### **4. Neural Collaborative Filtering with Deep Learning**
 
-3. Utilizes user ratings to recommend movies that similar users have rated highly.
+**Description:**
+Explore deep learning for recommendation systems with neural collaborative filtering, integrating embeddings and neural networks for advanced movie recommendations.
+
+**Dataset:** Movielens 25m dataset.
+
+**Key Features:**
+
+- **Embedding Layers:** Builds user and movie embeddings using TensorFlow and Keras.
+- **Dense Layers:** Uses dense layers for learning non-linear interactions between user and movie embeddings.
+- **Training and Evaluation:** Trains the model and evaluates its performance on a test set.
+- **Interactive Widgets:** Provides interactive widgets to select users and movies, and get recommendations or find similar movies.
 
 ## Setup and Usage
 
-#### Running the Recommendation Systems:
+### Running the Recommendation Systems:
 
-Each recommendation system is contained in one colab notebook **Movie_recommendation_system.ipynb**.
+Each recommendation system is contained in one Colab notebook: **movie_recommendation_system.ipynb**. Open and execute the notebook to explore each recommendation system.
 
-Open and execute the notebook to explore each recommendation system.
-
-#### Datasets:
+### Datasets:
 
 The Movielens datasets (ml-100k and ml-25m) are used. You can download them from the Movielens website.
 
 [Dataset](https://grouplens.org/datasets/movielens/)
 
-#### Dependencies:
+### Dependencies:
 
-TensorFlow, TensorFlow Recommenders, TensorFlow Datasets, Scikit-learn, Pandas, NumPy, Keras
-
-## Note
-
-Added a new Recommendation System 4 and updated the ipynb file.
+- TensorFlow
+- TensorFlow Recommenders
+- TensorFlow Datasets
+- Scikit-learn
+- Pandas
+- NumPy
+- Keras
 
 ## Author
 
-- [@Surya K S ](https://github.com/SuryaKS27/)
+- [@Surya K S](https://github.com/SuryaKS27/)
+
+Dive into the world of movie recommendations and start exploring now! Happy coding and happy watching!

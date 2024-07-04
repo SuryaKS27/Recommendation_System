@@ -95,5 +95,3 @@ Ensure you have the following dependencies installed:
 ## Author
 
 - [Surya K S](https://github.com/SuryaKS27)
-
-Embark on your journey to discover how machine learning can revolutionize movie recommendations. Happy coding and movie watching!

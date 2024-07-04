@@ -85,4 +85,3 @@ The Movielens datasets (ml-100k and ml-25m) are used. You can download them from
 
 - [@Surya K S](https://github.com/SuryaKS27/)
 
-Dive into the world of movie recommendations and start exploring now! Happy coding and happy watching!
